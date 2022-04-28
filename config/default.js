@@ -1,4 +1,6 @@
 require('dotenv').config();
 module.exports = {
-    //Complete with DB Config
+    database: {
+        connectionString: process.env.DB_CONNECTION_STRING,
+    }
 }
